@@ -1,0 +1,29 @@
+package com.javacodegeeks.snippets.core;
+  
+import java.util.Vector;
+  
+public class SearchElementsVector{
+  
+  public static void main(String[] args) {
+  
+    // Create a Vector and populate it with elements
+    Vector vector = new Vector(10);
+    vector.add("1");
+    vector.add("2");
+    vector.add("3");
+    vector.add("4");
+    vector.add("5");
+    vector.add("6");
+    vector.add("7");
+    vector.add("8");
+    vector.add("9");
+    vector.add("10");
+    vector.add("11");
+    vector.add("12");
+    
+
+    boolean found = vector.contains("12");
+    System.out.println("Found 12 : " + found);
+
+  }
+}
